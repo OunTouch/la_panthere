@@ -2,5 +2,8 @@
   "dependencies": {
     "bootstrap": "^5.2.3"
   },
-  "emmet.triggerExpansionOnTab": true
+  "scripts": {
+    "sass":"sass --watch ./css/corrections.scss:./css/corrections.css",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
+  }
 }

@@ -1,0 +1,28 @@
+/***Variables***/
+
+@mixin color_light_for_contrast{
+    color:white
+}
+
+@mixin color_dark_for_contrast{
+    color: black;
+}
+
+@mixin font-size-min{
+    font-size: small;
+}
+
+
+/***Classes***/
+
+.color-lighter{
+    @include color_light_for_contrast()
+}
+
+.color-darker{
+    @include color_dark_for_contrast()
+}
+
+p{
+    @include font-size-min()
+}
