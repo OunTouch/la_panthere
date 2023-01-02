@@ -1,9 +1,10 @@
 {
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.2"
   },
   "scripts": {
-    "sass":"sass --watch ./css/corrections.scss:./css/corrections.css",
+    "sass": "sass --watch ./css/corrections.scss:./css/corrections.css",
     "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
   }
 }
