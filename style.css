@@ -1005,3 +1005,21 @@ h4 {
         text-align: center;
     }
 }
+
+/****CORRECTIONS****/
+
+.color-lighter{
+    color:white;
+}
+
+.color-darker{
+    color: black;
+}
+
+p{
+    font-size: small;
+}
+
+.font-size-large{
+    font-size: 20px;
+}
